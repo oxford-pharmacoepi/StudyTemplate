@@ -44,7 +44,7 @@ achillesSchema <- "..."
 minCellCount <- 5
 
 # Run the study
-source(here("RunAnalysis.R"))
+source(here("RunStudy.R"))
 
 # after the study is run you should have a zip folder in your output folder to share
 cli::cli_alert_success("Study finished")
